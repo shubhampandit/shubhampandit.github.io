@@ -52,6 +52,9 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+
+  /*==============mobile setup====================*/
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 /* Font size for large devices */
