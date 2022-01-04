@@ -302,6 +302,7 @@ img {
 
 .home__blob {
   width: 200px;
+  height: 70%;
   fill: var(--first-color);
 }
 
@@ -711,6 +712,7 @@ img {
 .project__bg {
   background-color: var(--first-color-second);
   padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .project__title {
@@ -728,8 +730,9 @@ img {
 }
 
 .project__img {
-  width: 232px;
+  width: 210px;
   justify-self: center;
+  height: 100%;
 }
 
 /*==================== TESTIMONIAL ====================*/
@@ -1057,12 +1060,13 @@ img {
 
   .project__bg {
     background: none;
+    padding-bottom: 0;
   }
 
   .project__container {
     background-color: var(--first-color);
     border-radius: 1rem;
-    padding: 3rem 2.5rem 0;
+    padding: 3rem 2.5rem 3rem;
     grid-template-columns: 1fr max-content;
     column-gap: 3rem;
   }
